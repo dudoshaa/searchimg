@@ -6,7 +6,7 @@ function ImagesList({ image }) {
     <li>
       <div className="regular relative">
         <img className="photo rounded-2xl " src={image.urls.regular} alt="" />
-        <div className="absolute bottom-3 left-2 flex items-center gap-1">
+        <div className="absolute bottom-3 left-2 flex items-center gap-1 bg-wrappar">
           <img
             className="rounded-4xl "
             src={image.user.profile_image.small}

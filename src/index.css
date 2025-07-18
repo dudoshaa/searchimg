@@ -57,3 +57,8 @@
 .animate-right {
   animation: slide-in-right 0.5s ease-in-out;
 }
+.bg-wrappar {
+  background-color: rgba(255, 255, 255, 0.318);
+  border-radius: 10px;
+  padding: 3px 5px;
+}
