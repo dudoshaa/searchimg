@@ -50,7 +50,7 @@ function App() {
         </section>
       )}
       {searchParams && (
-        <ul className="align-elements grid grid-cols-4 gap-2 ">
+        <ul className="align-elements grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-2 ">
           {images &&
             images.results.map((image, index) => {
               const animationClass =
